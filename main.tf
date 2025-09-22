@@ -1,12 +1,4 @@
 terraform { 
-  cloud { 
-    
-    organization = "djs-tfcb" 
-
-    workspaces { 
-      name = "vault-backed-aws-credentials" 
-    } 
-  }
   required_providers {
     vault = {
       source  = "hashicorp/vault"
