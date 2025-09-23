@@ -1,0 +1,18 @@
+{
+  "jti": "1192426d-b525-4fde-9d42-f238be437bbd",
+  "iss": "https://app.terraform.io",
+  "aud": "my-example-audience",
+  "iat": 1650486122,
+  "nbf": 1650486117,
+  "exp": 1650486422,
+  "sub": "organization:djs-tfcb:project:aws-webinar:workspace:vault-backed-aws-credentials:run_phase:apply",
+  "terraform_organization_id": "org-GRNbCjYNpBB6NEH9",
+  "terraform_organization_name": "djs-tfcb",
+  "terraform_project_id": "prj-vegSA59s1XPwMr2t",
+  "terraform_project_name": "aws-webinar",
+  "terraform_workspace_id": "ws-mbsd5E3Ktt5Rg2Xm",
+  "terraform_workspace_name": "vault-backed-aws-credentials",
+  "terraform_full_workspace": "organization:djs-tfcb:project:aws-webinar:workspace:vault-backed-aws-credentials",
+  "terraform_run_id": "run-X3n1AUXNGWbfECsJ",
+  "terraform_run_phase": "apply"
+}

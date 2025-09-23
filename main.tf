@@ -34,3 +34,10 @@ resource "random_pet" "example" {}
 resource "aws_s3_bucket" "example" {
   bucket = random_pet.example.id
 }
+
+resource "null_resource" "sleep" {
+  provisioner "local-exec" {
+    command = "sleep 30"
+  }
+  
+}
